@@ -51,7 +51,7 @@ const questions = [
     {
         type: "list",
         message: "Select a license:",
-        options: ["MIT", "GNU GPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0", "None"],
+        choices: ["MIT", "GNU GPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0", "None"],
         name: "pLicense",
     },
 
@@ -95,8 +95,7 @@ function writeToFile(fileName, data) {
 
 // Function to initialize
 function init() {
-    inquirer.prompt(questions)
-    .then((inputs) => {
+    inquirer.prompt(questions).then((inputs) => {
         writeToFile("./GenerateME/README.md", genMD(inputs))
     })
 }
