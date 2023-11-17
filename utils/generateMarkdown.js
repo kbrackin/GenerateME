@@ -16,7 +16,7 @@ function renderLicenseLink(license) {
     return ''
   }
   else {
-    return '[License](#license)'
+    return '- [License](#license)'
   }
 }
 
@@ -28,17 +28,17 @@ function renderLicenseSection(license) {
   }
   else {
     return `
-    
-    ## License
 
-    This application is licensed using the ${license} license.
-    `
+## License
+
+This application is licensed using the ${license} license.`
+
   }
 }
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.pTitle}
+  return `# ${data.pName}
   ## ${renderLicenseBadge(data.pLicense)}
 
 ## Description
@@ -50,7 +50,8 @@ ${data.pDesc}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)${renderLicenseLink(data.pLicense)}
+- [Contributing](#contributing)
+- ${renderLicenseLink(data.pLicense)}
 - [Tests](#tests)
 - [Questions](#questions)
 
