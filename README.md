@@ -21,7 +21,9 @@ Please run the code `npm i`. This will install Inquirer, which is the only depen
 
 ## Usage
 
-The user will run the code `node index`. This begins the application, which will ask for a project title, description, steps to install your project, how to use your project, how someone can contribute to your project, a license for your project, and your GitHub username and email. This is so other developers can communicate with you for collaboration. Once these fields have been answered, then this project will generate the text in a file in the path `./GenerateME/README.md`. This file does need to be created first for the project towrite this information.
+The user will run the code `node index`. This begins the application, which will ask for a project title, description, steps to install your project, how to use your project, how someone can contribute to your project, a license for your project, and your GitHub username and email. This is so other developers can communicate with you for collaboration. Once these fields have been answered, then this project will generate the text in a file in the path `./GenerateME/README.md`. This file does need to be created first for the project to write this information.
+
+Here is the [link]() to a video demonstration of the app at work.
 
 ## Contributing
 
