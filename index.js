@@ -8,7 +8,7 @@ const questions = [
         type: "input",
         message: "What is the name of your project?",
         name: "pName",
-        validation: (value) => {
+        validate: (value) => {
             if (value.length < 1) {
                 return "There is no name entered, please enter a name"
             } else {
@@ -21,7 +21,7 @@ const questions = [
         type: "input",
         message: "Please type a description for your project.",
         name: "pDesc",
-        validation: (value) => {
+        validate: (value) => {
             if (value.length < 1) {
                 return "There is no description entered, please enter a description"
             } else {
@@ -59,7 +59,7 @@ const questions = [
         type: "input",
         message: "Enter your GitHub username:",
         name: "username",
-        validation: (value) => {
+        validate: (value) => {
             if (value.length < 1) {
                 return "Please enter your GitHub username."
             } else {
@@ -72,7 +72,7 @@ const questions = [
         type: "input",
         message: "Enter your email address:",
         name: "email",
-        validation: (value) => {
+        validate: (value) => {
             if (value.length < 1) {
                 return "Please enter your email address."
             } else {
