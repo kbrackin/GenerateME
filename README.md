@@ -1,61 +1,40 @@
-
+# GenerateME
+  ## ![License: MIT](https://img.shields.io/badge/License-MIT-cyan)
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is a simple command line application to generate a quality README for projects to help save time for developers.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Contributing](#contributing)
+- - [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Please run the code `npm i`. This will install Inquirer, which is the only dependency used in the creation of this app, and this is used to collect information from your command line.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The user will run the code `node index`. This begins the application, which will ask for a project title, description, steps to install your project, how to use your project, how someone can contribute to your project, a license for your project, and your GitHub username and email. This is so other developers can communicate with you for collaboration. Once these fields have been answered, then this project will generate the text in a file in the path `./GenerateME/README.md`. This file does need to be created first for the project towrite this information.
 
-To add a screenshot, create an assets/images folder in your repository and 
+## Contributing
 
-## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+This application is licensed using the MIT license.
 
----
+## Questions
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+For more of my projects, please visit https://github.com/kbrackin
 
-## Badges
+Do you have questions or suggestions for this application?
+Contact me at brackman99@gmail.com
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
