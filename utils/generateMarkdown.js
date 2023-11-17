@@ -51,7 +51,7 @@ ${data.pDesc}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- ${renderLicenseLink(data.pLicense)}
+${renderLicenseLink(data.pLicense)}
 - [Tests](#tests)
 - [Questions](#questions)
 
