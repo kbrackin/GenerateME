@@ -53,6 +53,32 @@ const questions = [
         message: "Select a license:",
         options: ["MIT", "GNU GPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0", "None"],
         name: "pLicense",
+    },
+
+    {
+        type: "input",
+        message: "Enter your GitHub username:",
+        name: "username",
+        validation: (value) => {
+            if (value.length < 1) {
+                return "Please enter your GitHub username."
+            } else {
+                return true
+            }
+        }
+    },
+
+    {
+        type: "input",
+        message: "Enter your email address:",
+        name: "email",
+        validation: (value) => {
+            if (value.length < 1) {
+                return "Please enter your email address."
+            } else {
+                return true
+            }
+        }
     }
 ];
 
