@@ -11,7 +11,7 @@ This is a simple command line application to generate a quality README for proje
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- - [License](#license)
+- [License](#license)
 - [Tests](#tests)
 - [Questions](#questions)
 
